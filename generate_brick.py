@@ -58,7 +58,7 @@ from bricksrc.substances import substances
 from bricksrc.relationships import relationships
 from bricksrc.quantities import quantity_definitions, get_units
 from bricksrc.entity_properties import entity_properties, get_shapes
-from bricksrc.deprecations import deprecations, deprecated_definitions
+from bricksrc.deprecations import deprecations
 
 
 logging.basicConfig(
@@ -814,15 +814,6 @@ def handle_deprecations(graph: Graph = G):
                     Literal(md[SKOS.definition], lang="en"),
                 )
             )
-        if RDFS.seeAlso in md:
-            graph.add((deprecated_term, RDFS.seeAlso, URIRef(md[RDFS.seeAlso])))
-
-    # definitions for deprecated terms whose deprecation metadata lives in
-    # bricksrc/recpatches.ttl (e.g. location classes replaced by REC classes)
-    for deprecated_term, md in deprecated_definitions.items():
-        graph.add(
-            (deprecated_term, SKOS.definition, Literal(md[SKOS.definition], lang="en"))
-        )
         if RDFS.seeAlso in md:
             graph.add((deprecated_term, RDFS.seeAlso, URIRef(md[RDFS.seeAlso])))
 
