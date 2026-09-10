@@ -284,7 +284,7 @@ https://brickschema.org/schema/Brick#Disable_Hot_Water_System_Outside_Air_Temper
 https://brickschema.org/schema/Brick#Disable_Status,Indicates if functionality has been disabled,
 https://brickschema.org/schema/Brick#Discharge_Air,the air exiting the registers (vents).,
 https://brickschema.org/schema/Brick#Discharge_Chilled_Water,,
-https://brickschema.org/schema/Brick#Disconnect_Switch,A switch that isolates a circuit or equipment by physically breaking the electrical connection.,
+https://brickschema.org/schema/Brick#Disconnect_Switch,A switch that disconnects a circuit or equipment by physically breaking the electrical connection.,
 https://brickschema.org/schema/Brick#Displacement_Flow_Air_Diffuser,An air diffuser that is designed for low discharge air speeds to minimize turbulence and induction of room air. This diffuser is used with displacement ventilation systems.,
 https://brickschema.org/schema/Brick#District_Hot_Water,Heating hot water on the district or utility side of an interface such as a heat exchanger,
 https://brickschema.org/schema/Brick#Domestic_Cold_Water_System,"A system that supplies cold water for domestic use (drinking, bathing, cooking and washing) into a building, typically from a municipality or a well. Domestic water is normally potable; potability is a property of the water itself (see Potable_Water) rather than of the system that distributes it.",
@@ -615,7 +615,7 @@ https://brickschema.org/schema/Brick#Interface,A device that provides an occupan
 https://brickschema.org/schema/Brick#Intrusion_Detection_Equipment,"Security equipment that detects unauthorized entry into a building or space, such as motion detectors, glass break sensors, and door contacts",
 https://brickschema.org/schema/Brick#Inverter,A device that changes direct current into alternating current,
 https://brickschema.org/schema/Brick#Isolation_Damper,A damper that isolates a section of ductwork or other air handling system.,
-https://brickschema.org/schema/Brick#Isolation_Switch,,
+https://brickschema.org/schema/Brick#Isolation_Switch,"An isolating switch is a device that serves to isolate a circuit or a piece of equipment from its power supply for safe maintenance or servicing. Typically, they are designed to be operated manually when the circuit is already de-energized.",
 https://brickschema.org/schema/Brick#Isolation_Valve,"A valve that stops the flow of a fluid, usually for maintenance or safety purposes",https://en.wikipedia.org/wiki/Isolation_valve
 https://brickschema.org/schema/Brick#Jet_Nozzle_Air_Diffuser,An air diffuser that is designed to produce high velocity discharge air stream to throw the air over a large distance or target the air stream to a localize area,
 https://brickschema.org/schema/Brick#Laminar_Flow_Air_Diffuser,An air diffuser that is designed for low discharge air speeds to provide uniform and unidirectional air pattern which minimizes room air entrainment,
